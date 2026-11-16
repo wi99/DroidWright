@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - DroidWright can now receive shared content (ACTION_SEND text, ACTION_SENDTO links) and route it to scripts via userscript-style `@match`/`@include`/`@exclude` header rules
 - Intent content API for share-triggered scripts (action, mime, text, subject, url, referrer, extras), exposed as `ctx.intent`.
 - New example script `examples/09_share_intent_demo.js`
+- Extended App control API: URI opening and activity launching with full intent control
 
 ## [1.0.0-beta.3] - 2025-01-10
 
